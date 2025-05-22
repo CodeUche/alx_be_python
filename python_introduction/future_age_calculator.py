@@ -4,7 +4,7 @@
 
 # Assign the variables for the years and future age
 
-age = input("How old are you: ")
+age = int(input("How old are you: "))
 
 current_year = 2023
 target_year = 2050
