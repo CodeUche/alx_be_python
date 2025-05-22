@@ -3,10 +3,10 @@
 # Prompt User Input for Financial Details
 
 monthly_income = int(input('Enter your monthly income: '))
-total_monthly_expenses = float(input('Enter your total monthly expenses: '))
+monthly_expenses = float(input('Enter your total monthly expenses: '))
 
 # Calculate monthly expenses
-monthly_savings = monthly_income - total_monthly_expenses
+monthly_savings = monthly_income - monthly_expenses
 
 # Display the user’s monthly savings
 print("Your monthly savings is $", monthly_savings)
