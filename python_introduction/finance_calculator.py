@@ -2,9 +2,8 @@
 
 # Prompt User Input for Financial Details
 
-monthly_income = input(“Enter your monthly income: ”)
-total_monthly_expenses = input(“Enter your total monthly expenses: ”)
-
+monthly_income = input('Enter your monthly income: ')
+total_monthly_expenses = input('Enter your total monthly expenses: ')
 
 # Calculate monthly expenses
 monthly_savings = monthly_income - total_monthly_expenses
