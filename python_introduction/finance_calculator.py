@@ -2,14 +2,14 @@
 
 # Prompt User Input for Financial Details
 
-monthly_income = input('Enter your monthly income: ')
-total_monthly_expenses = input('Enter your total monthly expenses: ')
+monthly_income = int(input('Enter your monthly income: '))
+total_monthly_expenses = int(input('Enter your total monthly expenses: '))
 
 # Calculate monthly expenses
 monthly_savings = monthly_income - total_monthly_expenses
 
 # Display the user’s monthly savings
-print("Your monthly savings is", monthly_savings)
+print("Your monthly savings is", "$",monthly_savings)
 
 
 # Project Annual Savings assuming annual interest is 5%
