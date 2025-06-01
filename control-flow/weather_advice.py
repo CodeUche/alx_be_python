@@ -1,7 +1,7 @@
 
 # Weather report and the right clothing for each weather condition
 
-weather_report = input("What's the weather like roday? (sunny/rainy/cold): ")
+weather_report = input("What's the weather like today? (sunny/rainy/cold): ")
 
 if weather_report == "sunny":
         print("Wear a t-shirt and sunglasses.")
