@@ -17,10 +17,10 @@ def main():
             return
 
     if time_bound == "yes":
-        message += " that requires immediate attention today!"
+        message += "Finish alx assignment requires immediate attention today!"
     else:
         if priority == "low":
-            message += ". Consider completing it when you have free time."
+            message += "Consider completing the cybersecurity tasks when you have free time."
         else:
             message += "."
 
