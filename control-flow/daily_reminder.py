@@ -5,26 +5,26 @@ def main():
     priority = input("Priority (high/medium/low): ").strip().lower()
     time_bound = input("Is it time-bound? (yes/no): ").strip().lower()
 
+    # Print message directly based on priority
     match priority:
         case "high":
-            message = f"Reminder: '{task}' is a high priority task"
+            print(f"Reminder: '{task}' is a high priority task", end=" ")
         case "medium":
-            message = f"Reminder: '{task}' is a medium priority task"
+            print(f"Reminder: '{task}' is a medium priority task", end=" ")
         case "low":
-            message = f"Note: '{task}' is a low priority task"
+            print(f"Note: '{task}' is a low priority task", end=" ")
         case _:
             print("Invalid priority. Please enter high, medium, or low.")
             return
 
+    # Modify message based on time-bound input
     if time_bound == "yes":
-        message += "Finish alx assignment requires immediate attention today!"
+        print("ALX assignments requires immediate attention today!")
     else:
         if priority == "low":
-            message += "Consider completing the cybersecurity tasks when you have free time."
+            print("Consider completing the ethical hacking tasks when you have free time.")
         else:
-            message += "."
-
-    print("\n" + message)
+            print("No immediate action needed here.")
 
 if __name__ == "__main__":
     main()
