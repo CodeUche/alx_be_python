@@ -8,7 +8,7 @@ if weather_report == "sunny":
 elif weather_report == "rainy":
         print("Don't forget your umbrella and a raincoat.")
 
-elif waether_report == "cold" :
+elif weather_report == "cold" :
         print("Make sure to wear a warm coat and a scarf.")
 
 else:
