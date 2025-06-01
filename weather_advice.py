@@ -3,15 +3,14 @@
 
 weather_report = input("What's the weather like roday? (sunny/rainy/cold): )")
 
-match weather_report:
-    case "sunny": 
-        print("Wear a t-shirt and sunglasses.") 
+if weather_report == "sunny": 
+    print("Wear a t-shirt and sunglasses.") 
     
-    case "rainy":
-        print("Don't forget your umbrella and a raincoat.")
+elif weather_report == "rainy":
+    print("Don't forget your umbrella and a raincoat.")
     
-    case "cold" :
-        print("Make sure to wear a warm coat and a scarf.")
+elif waether_report == "cold" :
+    print("Make sure to wear a warm coat and a scarf.")
     
-    case _:
-        print("Sorry, I don't have recommendations for this weather,")
+else:
+    print("Sorry, I don't have recommendations for this weather,")
