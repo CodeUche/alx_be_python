@@ -25,4 +25,3 @@ def perform_operation(num1, num2, operation):
     else:
         return "Error: Invalid operation"
 
-    # The end
