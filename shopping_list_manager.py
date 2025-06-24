@@ -1,11 +1,7 @@
 # File: shopping_list_manager.py
 
 def display_menu():
-<<<<<<< HEAD
     print(f"\n'Shopping List Manager'")
-=======
-    print("Shopping List Manager")
->>>>>>> 9460a4dc4a0e2c8f81536fb5f81496d65283bb93
     print("1. Add Item")
     print("2. Remove Item")
     print("3. View List")
