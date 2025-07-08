@@ -9,7 +9,11 @@ if weather == "sunny":
 elif weather == "rainy":
         print("Don't forget your umbrella and a raincoat.")
 
+<<<<<<< HEAD
 elif weather == "cold" :
+=======
+elif weather == "cold" :
+>>>>>>> master
         print("Make sure to wear a warm coat and a scarf.")
 
 else:
